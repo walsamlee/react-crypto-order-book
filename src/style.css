@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background: #3e3e3e;
+}
+
+table td, table th {
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+select {
+    margin: 16px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background: #cffbb1;
+}
+
+.title-header {
+    color: #49b100;
+}
+
+.order-bookings-header {
+    margin: 10px 0;
+}
+
+.order-bookings {
+    width: 100%;
+    margin: 20px auto;
+    overflow: auto
+}
+
+.asks, .bids {
+    width: 500px;
+    float: left;
+}
+
+.asks p, .bids p {
+    margin: 10px 0;
+}
